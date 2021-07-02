@@ -1,0 +1,792 @@
+[
+  {
+    "name": "Kerikeri Countdown",
+    "address": "Cnr Butler & Kerikeri Rds",
+    "locality": "Kerikeri",
+    "postcode": "0230",
+    "region": "Northland",
+    "phone": "(09) 407 0030",
+    "lngLat": [173.946844, -35.22932]
+  },
+  {
+    "name": "Whangarei Countdown",
+    "address": "Whangarei Retail Centre, Okara Drive",
+    "locality": "Whangarei",
+    "postcode": "0110",
+    "region": "Northland",
+    "phone": "(09) 430 4300",
+    "lngLat": [174.327329, -35.7305622]
+  },
+  {
+    "name": "Regent Countdown",
+    "address": "11 Kamo Road",
+    "locality": "Regent",
+    "postcode": "0112",
+    "region": "Northland",
+    "phone": "(09) 437 9019",
+    "lngLat": [174.322415, -35.714565]
+  },
+  {
+    "name": "Whitianga Countdown",
+    "address": "24 Joan Gaskell Drive",
+    "locality": "Whitianga",
+    "postcode": 3510,
+    "region": "Waikato",
+    "phone": "(07) 867 2003",
+    "lngLat": [175.696961, -36.834515]
+  },
+  {
+    "name": "Warkworth Countdown",
+    "address": "Neville Street",
+    "locality": "Warkworth",
+    "postcode": "0910",
+    "region": "Auckland North",
+    "phone": "(09) 425 1117",
+    "lngLat": [174.6649729, -36.3988426]
+  },
+  {
+    "name": "Orewa Countdown",
+    "address": "Moenui Avenue",
+    "locality": "Orewa",
+    "postcode": "0931",
+    "region": "Auckland North",
+    "phone": "(09) 421 9300",
+    "lngLat": [174.6950692, -36.5886051]
+  },
+  {
+    "name": "Siverdale Countdown",
+    "address": "40 Hibiscus Coast Highway",
+    "locality": "Silverdale",
+    "postcode": "0932",
+    "region": "Auckland North",
+    "phone": "(09) 421 9185",
+    "lngLat": [174.6809176, -36.615197]
+  },
+  {
+    "name": "Whangaparaoa Countdown",
+    "address": "Cnr Whangaparaoa Road & Wade River Road",
+    "locality": "Whangaparaoa",
+    "postcode": "0932",
+    "region": "Auckland North",
+    "phone": "(09) 424 9222",
+    "lngLat": [174.7449325, -36.6353382]
+  },
+  {
+    "name": "Browns Bay Countdown",
+    "address": "Cnr Anzac & Clyde Roads",
+    "locality": "Browns Bay",
+    "postcode": "0630",
+    "region": "Auckland North",
+    "phone": "(09) 476 5974",
+    "lngLat": [174.7679642, -36.7883551]
+  },
+  {
+    "name": "Mairangi Bay Countdown",
+    "address": "3 Ramsgate Terrace",
+    "locality": "Mairangi Bay",
+    "postcode": "0630",
+    "region": "Auckland North",
+    "phone": "(09) 478 7402",
+    "lngLat": [174.75312, -36.73979]
+  },
+  {
+    "name": "Sunnynook Countdown",
+    "address": "Cnr Sycamore Drive & Sunnynook Road",
+    "locality": "Sunnynook",
+    "postcode": "0620",
+    "region": "Auckland North",
+    "phone": "(09) 410 8491",
+    "lngLat": [174.74113, -36.75909]
+  },
+  {
+    "name": "Milford Countdown",
+    "address": "Milford Shopping Centre, Milford Road",
+    "locality": "Milford",
+    "postcode": "0620",
+    "region": "Auckland North",
+    "phone": "(09) 486 0374",
+    "lngLat": [174.76499, -36.77182]
+  },
+  {
+    "name": "Glenfield Countdown",
+    "address": "Glenfield Mall, Bentley Avenue",
+    "locality": "Glenfield",
+    "postcode": "0629",
+    "region": "Auckland North",
+    "phone": "(09) 442 1041",
+    "lngLat": [174.72162, -36.77526]
+  },
+  {
+    "name": "Takapuna Countdown",
+    "address": "Barry's Point Road",
+    "locality": "Takapuna",
+    "postcode": "0622",
+    "region": "Auckland North",
+    "phone": "(09) 486 7538",
+    "lngLat": [174.76514, -36.79331]
+  },
+  {
+    "name": "Hauraki Countdown",
+    "address": "367 Lake Road",
+    "locality": "Hauraki",
+    "postcode": "0627",
+    "region": "Auckland North",
+    "phone": "(09) 486 3186",
+    "lngLat": [174.77809, -36.79672]
+  },
+  {
+    "name": "Birkenhead Countdown",
+    "address": "Cnr Highbury Pass & Birkenhead Avenue",
+    "locality": "Birkenhead",
+    "postcode": "0626",
+    "region": "Auckland North",
+    "phone": "(09) 480 2921",
+    "lngLat": [174.72549, -36.81007]
+  },
+  {
+    "name": "Hobsonville Countdown",
+    "address": "124 Hobsonville Road",
+    "locality": "Hobsonville",
+    "postcode": "0616",
+    "region": "Auckland West",
+    "phone": "(09) 416 7516",
+    "lngLat": [174.64854, -36.79792]
+  },
+  {
+    "name": "Northwest Countdown",
+    "locality": "Westgate",
+    "postcode": "0814",
+    "region": "Auckland West",
+    "phone": "(09) 416 0934",
+    "lngLat": [174.61258, -36.8193]
+  },
+  {
+    "name": "Westgate Countdown",
+    "locality": "Massey North",
+    "postcode": "0614",
+    "region": "Auckland West",
+    "phone": "(09) 832 5382",
+    "lngLat": [174.91323, -36.93379]
+  },
+  {
+    "name": "Te Atatu Countdown",
+    "address": "583 Te Atatu Road",
+    "locality": "Te Atatu",
+    "postcode": "0610",
+    "region": "Auckland West",
+    "phone": "(09) 834 5451",
+    "lngLat": [174.65175, -36.84271]
+  },
+  {
+    "name": "Lincoln Road Countdown",
+    "address": "185 – 187 Universal Drive",
+    "locality": "Henderson",
+    "postcode": "0610",
+    "region": "Auckland West",
+    "phone": "(09) 835 3985",
+    "lngLat": [174.63115, -36.857]
+  },
+  {
+    "name": "Henderson Countdown",
+    "address": "West City Shopping Centre, 7 Catherine Street",
+    "locality": "Henderson",
+    "postcode": "0612",
+    "region": "Auckland West",
+    "phone": "(09) 838 4953",
+    "lngLat": [174.63528, -36.86761]
+  },
+  {
+    "name": "Kelston Countdown",
+    "address": "Cnr Great North & West Coast Roads",
+    "locality": "Glen Eden",
+    "postcode": "0602",
+    "region": "Auckland West",
+    "phone": "(09) 818 4372",
+    "lngLat": [174.664, -36.90817]
+  },
+  {
+    "name": "Lynfield Countdown",
+    "address": "570 Hillsborough Road",
+    "locality": "Lynfield",
+    "postcode": 1041,
+    "region": "Auckland Central",
+    "phone": "(09) 626 0596",
+    "lngLat": [174.72266, -36.92452]
+  },
+  {
+    "name": "Lynnmall Countdown",
+    "address": "Lynnmall Shopping Centre, Great North Road",
+    "locality": "New Lynn",
+    "postcode": 1041,
+    "region": "Auckland Central",
+    "phone": "(09) 629 0392",
+    "lngLat": [174.67764, -36.90867]
+  },
+  {
+    "name": "Mt Roskill Countdown",
+    "address": "112 Stoddard Rd",
+    "locality": "Mt Roskill",
+    "postcode": 1041,
+    "region": "Auckland Central",
+    "phone": "(09) 826 0340",
+    "lngLat": [174.72701, -36.90383]
+  },
+  {
+    "name": "Pt Chevalier Countdown",
+    "address": "13 Point Chevalier Road",
+    "locality": "Point Chevalier",
+    "postcode": 1022,
+    "region": "Auckland Central",
+    "phone": "(09) 849 6395",
+    "lngLat": [174.71014, -36.86993]
+  },
+  {
+    "name": "Grey Lynn Countdown",
+    "address": "271 Richmond Road",
+    "locality": "Grey Lynn",
+    "postcode": 1022,
+    "region": "Auckland Central",
+    "phone": "(09) 378 6313",
+    "lngLat": [174.73187, -36.85435]
+  },
+  {
+    "name": "Ponsonby Countdown",
+    "address": "4 Williamson Avenue",
+    "locality": "Ponsonby",
+    "postcode": 1021,
+    "region": "Auckland Central",
+    "phone": "(09) 376 5097",
+    "lngLat": [174.74898, -36.8586]
+  },
+  {
+    "name": "Grey Lynn Central Countdown",
+    "address": "Cnr Coleridge & Williamson Avenues",
+    "locality": "Grey Lynn",
+    "postcode": 1021,
+    "region": "Auckland Central",
+    "phone": "(09) 360 4287",
+    "lngLat": [174.73836, -36.86463]
+  },
+  {
+    "name": "St Lukes Countdown",
+    "address": "80 St Lukes Road, St Lukes Shopping Centre",
+    "locality": "Mount Albert",
+    "postcode": 1025,
+    "region": "Auckland Central",
+    "phone": "(09) 846 9742",
+    "lngLat": [174.733, -36.88366]
+  },
+  {
+    "name": "Mt Eden Countdown",
+    "address": "Cnr Valley & Dominion Roads",
+    "locality": "Mt Eden",
+    "postcode": 1024,
+    "region": "Auckland Central",
+    "phone": "(09) 638 7164",
+    "lngLat": [174.75104, -36.87598]
+  },
+  {
+    "name": "Auckland City Countdown",
+    "address": "76 Quay Street",
+    "locality": "Auckland City",
+    "postcode": 1010,
+    "region": "Auckland Central",
+    "phone": "(09) 373 5017",
+    "lngLat": [174.77288, -36.84502]
+  },
+  {
+    "name": "Victoria Street West Countdown",
+    "address": "19-25 Victoria Street",
+    "locality": "Auckland City",
+    "postcode": 1010,
+    "region": "Auckland Central",
+    "phone": "(09) 308 9249",
+    "lngLat": [174.76302, -36.84857]
+  },
+  {
+    "name": "Waiheke Countdown",
+    "address": "13-19 Belgium Street, Ostend",
+    "locality": "Waiheke",
+    "postcode": 1021,
+    "region": "Auckland Central",
+    "phone": "(09) 372 8431",
+    "lngLat": [175.04539, -36.79586]
+  },
+  {
+    "name": "Three Kings Countdown",
+    "address": "532 Mt Albert Road",
+    "locality": "Three Kings",
+    "postcode": 1042,
+    "region": "Auckland Central",
+    "phone": "(09) 624 2317",
+    "lngLat": [174.7554, -36.90884]
+  },
+  {
+    "name": "Greenlane Countdown",
+    "address": "326 Great South Road",
+    "locality": "Greenlane",
+    "postcode": 1051,
+    "region": "Auckland East",
+    "phone": "(09) 522 6970",
+    "lngLat": [174.79345, -36.8897]
+  },
+  {
+    "name": "Mt Wellington Countdown",
+    "address": "Cnr Penrose Road & Mt Wellington Highway",
+    "locality": "Mt Wellington",
+    "postcode": 1060,
+    "region": "Auckland East",
+    "phone": "(09) 527 8916",
+    "lngLat": [174.8388, -36.90852]
+  },
+  {
+    "name": "Meadowbank Countdown",
+    "address": "35-47 St Johns Road",
+    "locality": "Meadowbank",
+    "postcode": 1072,
+    "region": "Auckland East",
+    "phone": "(09) 578 0540",
+    "lngLat": [174.82774, -36.87576]
+  },
+  {
+    "name": "St Johns Countdown",
+    "address": "134 - 144 Felton Mathew Avenue",
+    "locality": "St Johns",
+    "postcode": 1072,
+    "region": "Auckland East",
+    "phone": "(09) 578 3546",
+    "lngLat": [174.85174, -36.87929]
+  },
+  {
+    "name": "Aviemore Park Countdown",
+    "address": "Highland Park Shopping Centre, Pakuranga Highway",
+    "locality": "Highland Park",
+    "postcode": 2010,
+    "region": "Auckland East",
+    "phone": "(09) 537 6584",
+    "lngLat": [174.91392, -36.90354]
+  },
+  {
+    "name": "Howick Countdown",
+    "address": "35 Cook Street",
+    "locality": "Howick",
+    "postcode": 2014,
+    "region": "Auckland East",
+    "phone": "(09) 535 9738",
+    "lngLat": [174.93338, -36.89637]
+  },
+  {
+    "name": "Botany Downs Countdown",
+    "address": "Cnr Te Irirangi Drive & Ti Rakau Drive",
+    "locality": "Botany",
+    "postcode": 2010,
+    "region": "Auckland East",
+    "phone": "(09) 271 3634",
+    "lngLat": [174.8737, -36.91769]
+  },
+  {
+    "name": "Meadowlands Countdown",
+    "address": "Cnr Meadowlands Drive & Whitford Road",
+    "locality": "Howick",
+    "postcode": 2014,
+    "region": "Auckland East",
+    "phone": "(09) 537 8497",
+    "lngLat": [174.92839, -36.91599]
+  },
+  {
+    "name": "Beachlands Countdown",
+    "address": "129 Beachlands Road",
+    "locality": "Beachlands",
+    "postcode": 2018,
+    "region": "Auckland East",
+    "phone": "(09) 536 5176",
+    "lngLat": [175.01085, -36.88961]
+  },
+  {
+    "name": "Manukau Countdown",
+    "address": "652 Great South Road",
+    "locality": "Manukau",
+    "postcode": 2104,
+    "region": "Auckland South",
+    "phone": "(09) 263 9765",
+    "lngLat": [174.88229, -36.98755]
+  },
+  {
+    "name": "Takanini Countdown",
+    "address": "228 Great South Road",
+    "locality": "Takanini",
+    "postcode": 2112,
+    "region": "Auckland South",
+    "phone": "(09) 298 6573",
+    "lngLat": [174.9274, -37.04856]
+  },
+  {
+    "name": "Pukekohe Countdown",
+    "address": "Cnr Tobin & Seddon Streets",
+    "locality": "Pukekohe",
+    "postcode": 2120,
+    "region": "Auckland South",
+    "phone": "(09) 237 0220",
+    "lngLat": [174.90245, -37.19995]
+  },
+  {
+    "name": "Pukekohe South Countdown",
+    "address": "186-192 Manukau Road",
+    "locality": "Pukekohe",
+    "postcode": 2120,
+    "region": "Auckland South",
+    "phone": "(09) 237 3080",
+    "lngLat": [174.91065, -37.2112]
+  },
+  {
+    "name": "St James Countdown",
+    "address": "Cnr Hukanui & Thomas Roads",
+    "locality": "Rototuna",
+    "postcode": 3210,
+    "region": "Waikato",
+    "phone": "(07) 853 0017",
+    "lngLat": [175.26635, -37.73058]
+  },
+  {
+    "name": "Te Rapa Countdown",
+    "address": "8 Eagle Way",
+    "locality": "Te Rapa",
+    "postcode": 3200,
+    "region": "Waikato",
+    "phone": "(07) 850 5091",
+    "lngLat": [175.23383, -37.74648]
+  },
+  {
+    "name": "Hamilton Countdown",
+    "address": "Cnr Anglesea & Liverpool Streets",
+    "locality": "Hamilton Central",
+    "postcode": 3204,
+    "region": "Waikato",
+    "phone": "(07) 834 1490",
+    "lngLat": [175.27368, -37.78112]
+  },
+  {
+    "name": "Hamilton Bridge Countdown",
+    "address": "Cnr Bridge & Anglesea Street",
+    "locality": "Hamilton Central",
+    "postcode": 3204,
+    "region": "Waikato",
+    "phone": "(07) 838 2714",
+    "lngLat": [175.2828, -37.7908]
+  },
+  {
+    "name": "Claudlands Countdown",
+    "address": "160 Peachgrove Road",
+    "locality": "Hamilton East",
+    "postcode": 3216,
+    "region": "Waikato",
+    "phone": "(07) 853 0003",
+    "lngLat": [175.29896, -37.77835]
+  },
+  {
+    "name": "Cambridge Countdown",
+    "address": "Cnr Queen & Empire Streets",
+    "locality": "Cambridge",
+    "postcode": 3434,
+    "region": "Waikato",
+    "phone": "(07) 823 5971",
+    "lngLat": [175.46983, -37.89151]
+  },
+  {
+    "name": "Te Awamutu Countdown",
+    "address": "181 Sloane Street",
+    "locality": "Te Awamutu",
+    "postcode": 3800,
+    "region": "Waikato",
+    "phone": "(07) 8720740",
+    "lngLat": [175.32677, -38.01194]
+  },
+  {
+    "name": "Katikati Countdown",
+    "address": "123-131 Main Road",
+    "locality": "Katikati",
+    "postcode": 3129,
+    "region": "Waikato",
+    "phone": "(07) 549 4603",
+    "lngLat": [175.91594, -37.55967]
+  },
+  {
+    "name": "Bureta Park Countdown",
+    "address": "44-50 Bureta Road",
+    "locality": "Otumoetai",
+    "postcode": 3110,
+    "region": "Bay of Plenty",
+    "phone": "(07) 576 1727",
+    "lngLat": [176.15354, -37.6684]
+  },
+  {
+    "name": "Tauranga Countdown",
+    "address": "618 Cameron Road",
+    "locality": "Tauranga",
+    "postcode": 3112,
+    "region": "Bay of Plenty",
+    "phone": "(07) 578 0055",
+    "lngLat": [176.15773, -37.70041]
+  },
+  {
+    "name": "Bethlehem Countdown",
+    "address": "19 Bethlehem Road",
+    "locality": "Bethlehem",
+    "postcode": 3110,
+    "region": "Bay of Plenty",
+    "phone": "(07) 579 2862",
+    "lngLat": [176.1098, -37.69299]
+  },
+  {
+    "name": "Bayfair Countdown",
+    "address": "Bayfair Shopping Centre, 1-19 Girven Road",
+    "locality": "Mt Maunganui",
+    "postcode": 3116,
+    "region": "Bay of Plenty",
+    "phone": "(07) 547 4560",
+    "lngLat": [176.21359, -37.67975]
+  },
+  {
+    "name": "Fraser Cove Countdown",
+    "address": "229-233 Fraser Street, Fraser Cove Shopping Centre",
+    "locality": "Parkvale",
+    "postcode": 3112,
+    "region": "Bay of Plenty",
+    "phone": "(07) 571 0500",
+    "lngLat": [176.15126, -37.71108]
+  },
+  {
+    "name": "Papamoa Countdown",
+    "address": "Papamoa Shopping Centre, Domain Road",
+    "locality": "Royal Palm Beach",
+    "postcode": 3118,
+    "region": "Bay of Plenty",
+    "phone": "(07) 547 4024",
+    "lngLat": ["", ""]
+  },
+  {
+    "name": "Rotorua Countdown",
+    "address": "246 Fenton Street",
+    "locality": "Rotorua",
+    "postcode": 3010,
+    "region": "Bay of Plenty",
+    "phone": "(07) 350 3277",
+    "lngLat": [176.25412, -38.14337]
+  },
+  {
+    "name": "Countdown Central Mall",
+    "address": "Rotorua Central Mall, Victoria Street",
+    "locality": "Rotorua",
+    "postcode": 3010,
+    "region": "Bay of Plenty",
+    "phone": "(07) 349 6501",
+    "lngLat": [176.25135, -38.13686]
+  },
+  {
+    "name": "Fairy Springs Countdown",
+    "address": "54 Fairy Springs Road",
+    "locality": "Fairy Springs",
+    "postcode": 3015,
+    "region": "Bay of Plenty",
+    "phone": "(07) 343 6070",
+    "lngLat": [176.22832, -38.1201]
+  },
+  {
+    "name": "Whakatane Countdown",
+    "address": "105-125 Commerce Street",
+    "locality": "Whakatane",
+    "postcode": 3120,
+    "region": "Bay of Plenty",
+    "phone": "(07) 306 0014",
+    "lngLat": [176.99505, -37.95612]
+  },
+  {
+    "name": "Napier Countdown",
+    "address": "Cnr Munroe & Dickens Streets",
+    "locality": "Napier",
+    "postcode": 4110,
+    "region": "Bay of Plenty",
+    "phone": "(06) 834 1401",
+    "lngLat": [176.91535, -39.492]
+  },
+  {
+    "name": "Carlyle Countdown",
+    "address": "Carlyle Street",
+    "locality": "Napier",
+    "postcode": 4110,
+    "region": "Bay of Plenty",
+    "phone": "(06) 835 3643",
+    "lngLat": [176.90672, -39.4932]
+  },
+  {
+    "name": "The Valley Countdown",
+    "address": "The Valley Mega Centre, 1 Vickers Road",
+    "locality": "Waiwhakaiho",
+    "postcode": 4312,
+    "region": "Taranaki",
+    "phone": "(06) 757 3330",
+    "lngLat": [174.11707, -39.0429]
+  },
+  {
+    "name": "New Plymouth Central Countdown",
+    "address": "174 Courtenay Street",
+    "locality": "New Plymouth",
+    "postcode": 4310,
+    "region": "Taranaki",
+    "phone": "(06) 759 7481",
+    "lngLat": [174.08237, -39.05645]
+  },
+  {
+    "name": "Spotswood Countdown",
+    "address": "Cnr Manadon St & South Rd",
+    "locality": "Spotswood",
+    "postcode": 4310,
+    "region": "Taranaki",
+    "phone": "(06) 751 0485",
+    "lngLat": [174.03399, -39.07588]
+  },
+  {
+    "name": "Hawera Countdown",
+    "address": "39 Nelson Street",
+    "locality": "Hawera",
+    "postcode": 4610,
+    "region": "Taranaki",
+    "phone": "(06) 278 0026",
+    "lngLat": [174.2812, -39.58744]
+  },
+  {
+    "name": "Whanganui Countdown",
+    "address": "Trafalgar Square, Cnr Taupo Quay & Wilson Street",
+    "locality": "Whanganui",
+    "postcode": 4500,
+    "region": "Whanganui",
+    "phone": "(06) 349 0199",
+    "lngLat": [175.05204, -39.9357]
+  },
+  {
+    "name": "Victoria Ave Countdown",
+    "address": "433 Victoria Avenue",
+    "locality": "Whanganui",
+    "postcode": 4500,
+    "region": "Whanganui",
+    "phone": "(06) 349 0070",
+    "lngLat": [175.03884, -39.92532]
+  },
+  {
+    "name": "Palmerston North Countdown",
+    "address": "Cnr Ferguson & Ashley Streets",
+    "locality": "Palmerston North",
+    "postcode": 4410,
+    "region": "Manawatu",
+    "phone": "(06) 356 6066",
+    "lngLat": [175.61621, -40.35823]
+  },
+  {
+    "name": "Kelvin Grove Countdown",
+    "address": "7 Fernlea Avenue",
+    "locality": "Kelvin Grove",
+    "postcode": 4470,
+    "region": "Manawatu",
+    "phone": "(06) 356 6067",
+    "lngLat": [175.65301, -40.33007]
+  },
+  {
+    "name": "Upper Hutt Countdown",
+    "address": "13-19 Queen Street",
+    "locality": "Upper Hutt",
+    "postcode": 5018,
+    "region": "Wellington",
+    "phone": "(04) 527 2003",
+    "lngLat": [175.07069, -41.12308]
+  },
+  {
+    "name": "Lower Hutt Countdown",
+    "address": "261 High Street",
+    "locality": "Lower Hutt",
+    "postcode": 5010,
+    "region": "Wellington",
+    "phone": "(04) 576 2000",
+    "lngLat": [174.90535, -41.20785]
+  },
+  {
+    "name": "Queensgate Countdown",
+    "address": "Queensgate Shopping Centre, 35 Bloomfield Terrace",
+    "locality": "Lower Hutt",
+    "postcode": 5010,
+    "region": "Wellington",
+    "phone": "(04) 569 3993",
+    "lngLat": [174.90282, -41.2116]
+  },
+  {
+    "name": "Petone Countdown",
+    "address": "45 Jackson Street",
+    "locality": "Petone",
+    "postcode": 5012,
+    "region": "Wellington",
+    "phone": "(04) 589 9573",
+    "lngLat": [174.87199, -41.22328]
+  },
+  {
+    "name": "Cable Car Lane Countdown",
+    "address": "280-284 Lambton Quay",
+    "locality": "Wellington",
+    "postcode": 6011,
+    "region": "Wellington",
+    "phone": "(04) 499 3466",
+    "lngLat": [174.77521, -41.28421]
+  },
+  {
+    "name": "Karori Countdown",
+    "address": "Main Road",
+    "locality": "Karori",
+    "postcode": 6012,
+    "region": "Wellington",
+    "phone": "(04) 464 3000",
+    "lngLat": [174.82492, -41.29756]
+  },
+  {
+    "name": "Johnsonville Countdown",
+    "address": "Johnsonville Mall, Moorefield Road",
+    "locality": "Johnsonville",
+    "postcode": 6037,
+    "region": "Wellington",
+    "phone": "(04) 465 0990",
+    "lngLat": [174.80734, -41.22419]
+  },
+  {
+    "name": "Crofton Downs Countdown",
+    "address": "Churchill Drive",
+    "locality": "Crofton Downs",
+    "postcode": 6035,
+    "region": "Wellington",
+    "phone": "(04) 479 2133",
+    "lngLat": [174.76654, -41.25903]
+  },
+  {
+    "name": "Tawa Countdown",
+    "address": "5 William Earp Place",
+    "locality": "Tawa",
+    "postcode": 5028,
+    "region": "Wellington",
+    "phone": "(04) 232 7057",
+    "lngLat": [174.83002, -41.18667]
+  },
+  {
+    "name": "Kilbirnie Countdown",
+    "address": "47 Bay Road",
+    "locality": "Kilbirnie",
+    "postcode": 6022,
+    "region": "Wellington",
+    "phone": "(04) 387 2049",
+    "lngLat": [174.7947, -41.31949]
+  },
+  {
+    "name": "Newtown Countdown",
+    "address": "3 John Street",
+    "locality": "Newtown",
+    "postcode": 6021,
+    "region": "Wellington",
+    "phone": "(04) 380 2080",
+    "lngLat": [174.77744, -41.30737]
+  }
+]
