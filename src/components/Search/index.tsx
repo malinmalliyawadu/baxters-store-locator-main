@@ -26,6 +26,8 @@ export const Search = () => {
       types: "region,postcode,district,place,locality,neighborhood,address",
     });
 
+    map.setPadding({ left: 400, top: 0, right: 0, bottom: 0 });
+
     map.addControl(
       new mapboxgl.GeolocateControl({
         positionOptions: {

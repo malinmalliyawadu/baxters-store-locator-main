@@ -1,11 +1,13 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Search } from '../Search';
-import { Stores } from '../Stores';
+import React from "react";
+import styled from "styled-components";
+import { Search } from "../Search";
+import { Stores } from "../Stores";
 
 const SidebarWrapper = styled.div`
-  flex-basis: 40%;
-  flex-shrink: 0;
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  width: 400px;
 `;
 
 export const Sidebar = () => (
@@ -13,4 +15,4 @@ export const Sidebar = () => (
     <Search />
     <Stores />
   </SidebarWrapper>
-)
+);

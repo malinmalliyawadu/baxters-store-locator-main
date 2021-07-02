@@ -7,20 +7,22 @@ import { FastArrowRight } from "iconoir-react";
 
 const StoresList = styled.ul`
   list-style: none;
-  padding: 0 16px 0 0;
+  padding: 0;
   margin: 16px 0 0;
-  height: 100%;
+  max-height: 80vh;
   overflow-y: auto;
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  z-index: 1;
 `;
 
 const Store = styled(motion.li)`
   margin: 0;
   border: solid 1px #8b3032;
   cursor: pointer;
+  background: white;
 
   &:hover {
-    background: #8b303158;
+    background: #c79d9e;
   }
 `;
 
@@ -92,8 +94,6 @@ export const Stores = () => {
               </StoreBody>
 
               <StoreArrow>
-                {/* <div>&gt;</div> */}
-                {/* <Iconoir  /> */}
                 <FastArrowRight width="2rem" height="2rem" />
               </StoreArrow>
             </StoreInfo>
