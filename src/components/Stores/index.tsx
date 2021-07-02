@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { motion, AnimatePresence } from "framer-motion";
 import { StoreContext } from "../../contexts/StoreContext";
 import { MapContext } from "../../contexts/MapContext";
+import { FastArrowRight } from "iconoir-react";
 
 const StoresList = styled.ul`
   list-style: none;
@@ -16,6 +17,11 @@ const StoresList = styled.ul`
 const Store = styled(motion.li)`
   margin: 0;
   border: solid 1px #8b3032;
+  cursor: pointer;
+
+  &:hover {
+    background: #8b303158;
+  }
 `;
 
 const StoreHeader = styled.div`
@@ -25,8 +31,20 @@ const StoreHeader = styled.div`
 `;
 
 const StoreBody = styled.div`
-  background: white;
   padding: 16px;
+  flex: 1;
+`;
+
+const StoreArrow = styled.div`
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 1rem;
+`;
+
+const StoreInfo = styled.div`
+  display: flex;
 `;
 
 export const Stores = () => {
@@ -61,16 +79,24 @@ export const Stores = () => {
           >
             <StoreHeader>{store.name}</StoreHeader>
 
-            <StoreBody>
-              {store.address}
-              <br />
-              {store.locality} {store.postcode}
-              <br />
-              {store.region}
-              <br />
-              <br />
-              {store.phone}
-            </StoreBody>
+            <StoreInfo>
+              <StoreBody>
+                {store.address}
+                <br />
+                {store.locality} {store.postcode}
+                <br />
+                {store.region}
+                <br />
+                <br />
+                {store.phone}
+              </StoreBody>
+
+              <StoreArrow>
+                {/* <div>&gt;</div> */}
+                {/* <Iconoir  /> */}
+                <FastArrowRight width="2rem" height="2rem" />
+              </StoreArrow>
+            </StoreInfo>
           </Store>
         ))}
       </AnimatePresence>
