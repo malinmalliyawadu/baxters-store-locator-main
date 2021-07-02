@@ -9,7 +9,8 @@ import { MapContext } from "../../contexts/MapContext";
 let geocoder: any;
 
 const SearchHeader = styled.div`
-  padding: 0 16px 0 0;
+  padding: 0;
+  z-index: 2;
 `;
 
 export const Search = () => {
@@ -26,7 +27,7 @@ export const Search = () => {
       types: "region,postcode,district,place,locality,neighborhood,address",
     });
 
-    map.setPadding({ left: 400, top: 0, right: 0, bottom: 0 });
+    map.setPadding({ left: 500, top: 0, right: 0, bottom: 0 });
 
     map.addControl(
       new mapboxgl.GeolocateControl({

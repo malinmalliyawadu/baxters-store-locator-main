@@ -8,11 +8,14 @@ import { FastArrowRight } from "iconoir-react";
 const StoresList = styled.ul`
   list-style: none;
   padding: 0;
-  margin: 16px 0 0;
-  max-height: 80vh;
+  margin: 0;
+  max-height: 70vh;
   overflow-y: auto;
   position: absolute;
   z-index: 1;
+  display: block;
+  width: 100%;
+  border-radius: 4px;
 `;
 
 const Store = styled(motion.li)`
