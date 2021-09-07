@@ -9,6 +9,7 @@ object-assign
   height: 100vh;
   margin: 0;
   padding: 0;
+  position: relative;
 `,p=s.createGlobalStyle`
   body {
     margin: 0;
@@ -71,8 +72,9 @@ object-assign
   list-style: none;
   padding: 0;
   margin: 0;
-  top: 3rem;
+  max-height: 100%;
   bottom: 1rem;
+  top: 3rem;
   overflow-y: auto;
   position: absolute;
   z-index: 1;
