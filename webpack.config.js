@@ -1,14 +1,15 @@
 const path = require("path");
 const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        loader: "ts-loader",
-        exclude: [/\.spec\.*?/],
+        use: ["babel-loader", "ts-loader"],
+        exclude: /node_modules/,
       },
     ],
   },
@@ -16,6 +17,10 @@ module.exports = {
     extensions: [".ts", ".tsx", ".js"],
   },
   mode: process.env.NODE_ENV || "production",
+  optimization: {
+    usedExports: true,
+    minimizer: [new TerserPlugin()],
+  },
   entry: {
     "store-locator": "./src/app.tsx",
   },
@@ -28,6 +33,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "index.html",
     }),
+    // new BundleAnalyzerPlugin(),
   ],
-  // op/
 };

@@ -9,7 +9,9 @@ const StoresList = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
-  max-height: 70vh;
+  max-height: 100%;
+  bottom: 1rem;
+  top: 3rem;
   overflow-y: auto;
   position: absolute;
   z-index: 1;
@@ -26,6 +28,10 @@ const Store = styled(motion.li)`
 
   &:hover {
     background: #c79d9e;
+
+    .store-header {
+      background: #550d0e;
+    }
   }
 `;
 
@@ -82,7 +88,7 @@ export const Stores = () => {
               }
             }}
           >
-            <StoreHeader>{store.name}</StoreHeader>
+            <StoreHeader className="store-header">{store.name}</StoreHeader>
 
             <StoreInfo>
               <StoreBody>

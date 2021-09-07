@@ -9,9 +9,9 @@ import { Sidebar } from "./components/Sidebar";
 const App = styled.div`
   display: flex;
   flex-direction: row;
-  height: 100vh;
   margin: 0;
   padding: 0;
+  position: relative;
 `;
 
 const GlobalStyles = createGlobalStyle`
@@ -20,6 +20,9 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     font-family: "Open Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 14px;
+  }
+  .mapboxgl-ctrl-geocoder.mapboxgl-ctrl {
+    z-index: 2;
   }
 `;
 

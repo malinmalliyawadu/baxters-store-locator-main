@@ -1,4 +1,3 @@
-// import { Check } from "iconoir-react";
 import React from "react";
 import styled from "styled-components";
 import { Search } from "../Search";
@@ -8,6 +7,7 @@ const SidebarWrapper = styled.div`
   position: absolute;
   left: 2rem;
   top: 2rem;
+  bottom: 2rem;
   width: 460px;
 `;
 
