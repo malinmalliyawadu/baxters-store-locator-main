@@ -55,6 +55,7 @@ object-assign
   position: absolute;
   left: 2rem;
   top: 2rem;
+  bottom: 2rem;
   width: 460px;
 `,c=i.default.div`
   position: relative;
@@ -70,7 +71,8 @@ object-assign
   list-style: none;
   padding: 0;
   margin: 0;
-  max-height: 70vh;
+  top: 3rem;
+  bottom: 1rem;
   overflow-y: auto;
   position: absolute;
   z-index: 1;
