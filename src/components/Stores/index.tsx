@@ -97,7 +97,7 @@ export const Stores = () => {
               </StoreBody>
 
               <StoreArrow>
-                <FastArrowRight width="2rem" height="2rem" />
+                <FastArrowRight width="32" height="32" />
               </StoreArrow>
             </StoreInfo>
           </Store>
