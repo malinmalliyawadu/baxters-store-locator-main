@@ -3,19 +3,30 @@ import styled from "styled-components";
 import { motion, AnimatePresence } from "framer-motion";
 import { StoreContext } from "../../contexts/StoreContext";
 import { MapContext } from "../../contexts/MapContext";
+import { FastArrowRight } from "iconoir-react";
 
 const StoresList = styled.ul`
   list-style: none;
-  padding: 0 16px 0 0;
-  margin: 16px 0 0;
-  height: 100%;
+  padding: 0;
+  margin: 0;
+  max-height: 70vh;
   overflow-y: auto;
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  border-radius: 4px;
 `;
 
 const Store = styled(motion.li)`
   margin: 0;
   border: solid 1px #8b3032;
+  cursor: pointer;
+  background: white;
+
+  &:hover {
+    background: #c79d9e;
+  }
 `;
 
 const StoreHeader = styled.div`
@@ -25,8 +36,20 @@ const StoreHeader = styled.div`
 `;
 
 const StoreBody = styled.div`
-  background: white;
   padding: 16px;
+  flex: 1;
+`;
+
+const StoreArrow = styled.div`
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 1rem;
+`;
+
+const StoreInfo = styled.div`
+  display: flex;
 `;
 
 export const Stores = () => {
@@ -61,16 +84,22 @@ export const Stores = () => {
           >
             <StoreHeader>{store.name}</StoreHeader>
 
-            <StoreBody>
-              {store.address}
-              <br />
-              {store.locality} {store.postcode}
-              <br />
-              {store.region}
-              <br />
-              <br />
-              {store.phone}
-            </StoreBody>
+            <StoreInfo>
+              <StoreBody>
+                {store.address}
+                <br />
+                {store.locality} {store.postcode}
+                <br />
+                {store.region}
+                <br />
+                <br />
+                {store.phone}
+              </StoreBody>
+
+              <StoreArrow>
+                <FastArrowRight width="2rem" height="2rem" />
+              </StoreArrow>
+            </StoreInfo>
           </Store>
         ))}
       </AnimatePresence>

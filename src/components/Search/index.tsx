@@ -1,15 +1,16 @@
-import React, { useContext, useRef } from 'react';
-import styled from 'styled-components';
-import mapboxgl from 'mapbox-gl';
+import React, { useContext, useRef } from "react";
+import styled from "styled-components";
+import mapboxgl from "mapbox-gl";
 // @ts-ignore
-import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
-import { StoreContext } from '../../contexts/StoreContext';
-import { MapContext } from '../../contexts/MapContext';
+import MapboxGeocoder from "@mapbox/mapbox-gl-geocoder";
+import { StoreContext } from "../../contexts/StoreContext";
+import { MapContext } from "../../contexts/MapContext";
 
 let geocoder: any;
 
 const SearchHeader = styled.div`
-  padding: 0 16px 0 0;
+  padding: 0;
+  z-index: 2;
 `;
 
 export const Search = () => {
@@ -21,20 +22,36 @@ export const Search = () => {
     geocoder = new MapboxGeocoder({
       accessToken: mapboxgl.accessToken,
       mapboxgl,
-      countries: 'NZ',
+      countries: "NZ",
       marker: false,
-      types: 'region,postcode,district,place,locality,neighborhood,address',
+      types: "region,postcode,district,place,locality,neighborhood,address",
     });
 
-    geocoder.on('result', ({ result }: {
-      result: {
-        bbox:  [number, number, number, number];
+    map.setPadding({ left: 500, top: 0, right: 0, bottom: 0 });
+
+    map.addControl(
+      new mapboxgl.GeolocateControl({
+        positionOptions: {
+          enableHighAccuracy: true,
+        },
+        trackUserLocation: true,
+      })
+    );
+
+    geocoder.on(
+      "result",
+      ({
+        result,
+      }: {
+        result: {
+          bbox: [number, number, number, number];
+        };
+      }) => {
+        updateSearch(result.bbox);
       }
-    }) => {
-      updateSearch(result.bbox)
-    });
+    );
 
-    geocoder.on('clear', () => {
+    geocoder.on("clear", () => {
       resetMap();
       clearSearch();
     });
@@ -46,5 +63,5 @@ export const Search = () => {
     <SearchHeader>
       <div ref={inputRef}></div>
     </SearchHeader>
-  )
+  );
 };
