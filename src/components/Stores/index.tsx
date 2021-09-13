@@ -11,7 +11,7 @@ const StoresList = styled.ul`
   margin: 0;
   max-height: 100%;
   bottom: 1rem;
-  top: 3rem;
+  top: 5.5rem;
   overflow-y: auto;
   position: absolute;
   z-index: 1;
@@ -21,28 +21,33 @@ const StoresList = styled.ul`
 `;
 
 const Store = styled(motion.li)`
+  display: flex;
+  justify-content: space-between;
   margin: 0;
-  border: solid 1px #8b3032;
+  border-left: solid 10px #8b3032;
+  border-bottom: 1px solid #e0e0e0;
+
   cursor: pointer;
   background: white;
+  transition: background 0.5s;
 
   &:hover {
-    background: #c79d9e;
-
-    .store-header {
-      background: #550d0e;
-    }
+    background: #f5f5f5;
   }
 `;
 
 const StoreHeader = styled.div`
-  background: #8b3032;
-  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #8b3032;
   padding: 16px;
 `;
 
 const StoreBody = styled.div`
-  padding: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+
   flex: 1;
 `;
 
@@ -56,6 +61,7 @@ const StoreArrow = styled.div`
 
 const StoreInfo = styled.div`
   display: flex;
+  flex-direction: column;
 `;
 
 export const Stores = () => {
@@ -88,9 +94,9 @@ export const Stores = () => {
               }
             }}
           >
-            <StoreHeader className="store-header">{store.name}</StoreHeader>
-
             <StoreInfo>
+              <StoreHeader className="store-header">{store.name}</StoreHeader>
+
               <StoreBody>
                 {store.address}
                 <br />
@@ -101,11 +107,10 @@ export const Stores = () => {
                 <br />
                 {store.phone}
               </StoreBody>
-
-              <StoreArrow>
-                <FastArrowRight width="32" height="32" />
-              </StoreArrow>
             </StoreInfo>
+            <StoreArrow>
+              <FastArrowRight width="32" height="32" />
+            </StoreArrow>
           </Store>
         ))}
       </AnimatePresence>
