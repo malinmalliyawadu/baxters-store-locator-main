@@ -9,7 +9,7 @@ const StoresList = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
-  max-height: 100%;
+  max-height: 480px;
   bottom: 1rem;
   top: 5.5rem;
   overflow-y: auto;
@@ -73,7 +73,6 @@ export const Stores = () => {
       <AnimatePresence>
         {stores.map((store) => (
           <Store
-            positionTransition
             key={store.name}
             initial={{
               opacity: 0,

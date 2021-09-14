@@ -1,7 +1,9 @@
-import React from "react";
+import { StoreContext } from "../../contexts/StoreContext";
+import React, { useContext } from "react";
 import styled from "styled-components";
 import { Search } from "../Search";
 import { Stores } from "../Stores";
+import { FilterButton } from "./FilterButton";
 
 const SidebarWrapper = styled.div`
   position: absolute;
@@ -15,45 +17,44 @@ const SidebarWrapper = styled.div`
 const FiltersBox = styled.div`
   position: relative;
   display: flex;
-  padding: 1rem 0 0;
+  padding: 0.5rem 0 0;
   z-index: 1;
   gap: 0.5rem;
   align-items: center;
 `;
 
-const FilterButton = styled.button`
-  border-radius: 1rem;
-  border: solid 1px #333;
-  cursor: pointer;
-  padding: 0.25rem 0.5rem;
-  display: flex;
-  align-items: center;
-`;
-
 const FiltersLabel = styled.div`
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 `;
 
-export const Sidebar = () => (
-  <SidebarWrapper>
-    <Search />
+export const Sidebar = () => {
+  const { filter, filterStores } = useContext(StoreContext);
 
-    <FiltersBox>
-      <FiltersLabel>Filters:</FiltersLabel>
-      <FilterButton>
-        {/* <Check /> */}
-        Supermarkets
-      </FilterButton>
-      <FilterButton>
-        {/* <Check /> */}
-        Wholesalers
-      </FilterButton>
-      <FilterButton>
-        {/* <Check /> */}
-        Other stockists
-      </FilterButton>
-    </FiltersBox>
+  return (
+    <SidebarWrapper>
+      <Search />
 
-    <Stores />
-  </SidebarWrapper>
-);
+      <FiltersBox>
+        <FiltersLabel>Filters</FiltersLabel>
+        <FilterButton
+          filter={filter}
+          type={"Supermarkets"}
+          onClick={filterStores}
+        />
+        <FilterButton
+          filter={filter}
+          type={"Wholesalers"}
+          onClick={filterStores}
+        />
+        <FilterButton
+          filter={filter}
+          type={"Other Stockists"}
+          onClick={filterStores}
+        />
+        {filter && <button onClick={() => filterStores("")}>Clear</button>}
+      </FiltersBox>
+
+      <Stores />
+    </SidebarWrapper>
+  );
+};
