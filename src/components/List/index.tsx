@@ -13,7 +13,7 @@ const List = () => {
       <ListHeader>FIND YOUR CLOSEST STOCKIST</ListHeader>
       <ListSection category="Countdown" />
       <ListSection category="New World" />
-      <ListSection category="Moore Wilsons" />\
+      <ListSection category="Moore Wilsons" />
       <ListSection category="Gilmours" />
       <ListSection category="Other Stockists" />
     </div>
