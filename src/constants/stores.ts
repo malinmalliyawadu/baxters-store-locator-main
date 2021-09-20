@@ -39,7 +39,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 407 0030",
     lngLat: [173.946844, -35.22932],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9502/kerikeri/kerikeri-countdown",
   },
   {
@@ -51,7 +51,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 430 4300",
     lngLat: [174.327329, -35.7305622],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9195/whangarei/whangarei-countdown",
   },
   {
@@ -63,7 +63,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 437 9019",
     lngLat: [174.322415, -35.714565],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9048/regent-whangarei/regent-countdown",
   },
   {
@@ -75,7 +75,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 867 2003",
     lngLat: [175.696961, -36.834515],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9049/whitianga/whitianga-countdown",
   },
   {
@@ -87,7 +87,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 425 1117",
     lngLat: [174.6649729, -36.3988426],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9533/warkworth/warkworth-countdown",
   },
   {
@@ -99,7 +99,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 421 9300",
     lngLat: [174.6950692, -36.5886051],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9061/orewa/orewa-countdown",
   },
   {
@@ -111,7 +111,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 421 9185",
     lngLat: [174.6809176, -36.615197],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9504/silverdale/silverdale-countdown",
   },
   {
@@ -123,7 +123,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 424 9222",
     lngLat: [174.7449325, -36.6353382],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9242/whangaparaoa/whangaparaoa-countdown",
   },
   {
@@ -135,7 +135,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 476 5974",
     lngLat: [174.7679642, -36.7883551],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9224/browns-bay/browns-bay-countdown",
   },
   {
@@ -147,7 +147,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 478 7402",
     lngLat: [174.75312, -36.73979],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9248/mairangi-bay/mairangi-bay-countdown",
   },
   {
@@ -159,7 +159,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 410 8491",
     lngLat: [174.74113, -36.75909],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9197/sunnynook/sunnynook-countdown",
   },
   {
@@ -171,7 +171,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 486 0374",
     lngLat: [174.76499, -36.77182],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9198/milford/milford-countdown",
   },
   {
@@ -183,7 +183,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 442 1041",
     lngLat: [174.72162, -36.77526],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9163/glenfield/glenfield-countdown",
   },
   {
@@ -195,7 +195,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 486 7538",
     lngLat: [174.76514, -36.79331],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9237/takapuna/takapuna-countdown",
   },
   {
@@ -207,7 +207,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 486 3186",
     lngLat: [174.77809, -36.79672],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9060/belmont-hauraki/hauraki-corner-countdown",
   },
   {
@@ -219,7 +219,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 480 2921",
     lngLat: [174.72549, -36.81007],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9145/birkenhead/birkenhead-countdown",
   },
   {
@@ -231,7 +231,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 416 7516",
     lngLat: [174.64854, -36.79792],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9551/hobsonville/hobsonville-countdown",
   },
   {
@@ -243,7 +243,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 416 0934",
     lngLat: [174.61258, -36.8193],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9064/westgate-massey/northwest-countdown",
   },
   {
@@ -255,7 +255,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 832 5382",
     lngLat: [174.91323, -36.93379],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9147/massey/westgate-countdown",
   },
   {
@@ -267,7 +267,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 834 5451",
     lngLat: [174.65175, -36.84271],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9451/te-atatu-peninsula/te-atatu-countdown",
   },
   {
@@ -279,7 +279,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 835 3985",
     lngLat: [174.63115, -36.857],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9038/henderson/lincoln-road-countdown",
   },
   {
@@ -291,7 +291,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 838 4953",
     lngLat: [174.63528, -36.86761],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9194/henderson/henderson-countdown",
   },
   {
@@ -303,7 +303,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 818 4372",
     lngLat: [174.664, -36.90817],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9146/glen-eden/kelston-countdown",
   },
   {
@@ -315,7 +315,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 626 0596",
     lngLat: [174.72266, -36.92452],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9140/lynfield/lynfield-countdown",
   },
   {
@@ -327,7 +327,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 629 0392",
     lngLat: [174.67764, -36.90867],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9149/new-lynn/lynnmall-countdown",
   },
   {
@@ -339,7 +339,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 826 0340",
     lngLat: [174.72701, -36.90383],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9034/mt-roskill-auckland/mount-roskill-countdown",
   },
   {
@@ -351,7 +351,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 849 6395",
     lngLat: [174.71014, -36.86993],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9123/point-chevalier-auckland/pt-chevalier-countdown",
   },
   {
@@ -363,7 +363,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 378 6313",
     lngLat: [174.73187, -36.85435],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9068/grey-lynn-auckland/grey-lynn-countdown",
   },
   {
@@ -375,7 +375,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 376 5097",
     lngLat: [174.74898, -36.8586],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9057/ponsonby-auckland/ponsonby-countdown",
   },
   {
@@ -387,7 +387,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 360 4287",
     lngLat: [174.73836, -36.86463],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9068/grey-lynn-auckland/grey-lynn-countdown",
   },
   {
@@ -399,7 +399,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 846 9742",
     lngLat: [174.733, -36.88366],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9216/mt-albert-auckland/st-lukes-countdown",
   },
   {
@@ -411,7 +411,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 638 7164",
     lngLat: [174.75104, -36.87598],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9235/mt-eden-auckland/mount-eden-countdown",
   },
   {
@@ -423,7 +423,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 373 5017",
     lngLat: [174.77288, -36.84502],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9094/auckland/auckland-city-countdown",
   },
   {
@@ -435,7 +435,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 308 9249",
     lngLat: [174.76302, -36.84857],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9283/auckland/auckland-victoria-street-west",
   },
   {
@@ -447,7 +447,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 372 8431",
     lngLat: [175.04539, -36.79586],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9030/ostend/waiheke-island-countdown",
   },
   {
@@ -459,7 +459,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 624 2317",
     lngLat: [174.7554, -36.90884],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9529/three-kings-auckland/three-kings-countdown",
   },
   {
@@ -471,7 +471,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 522 6970",
     lngLat: [174.79345, -36.8897],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9128/greenlane-auckland/greenlane-countdown",
   },
   {
@@ -483,7 +483,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 527 8916",
     lngLat: [174.8388, -36.90852],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9193/mt-wellington/mount-wellington-countdown",
   },
   {
@@ -495,7 +495,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 578 0540",
     lngLat: [174.82774, -36.87576],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9444/meadowbank/meadowbank-countdown",
   },
   {
@@ -507,7 +507,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 578 3546",
     lngLat: [174.85174, -36.87929],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9521/st-johns/st-johns-countdown",
   },
   {
@@ -519,7 +519,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 537 6584",
     lngLat: [174.91392, -36.90354],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9215/pakuranga/aviemore-drive-countdown",
   },
   {
@@ -531,7 +531,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 535 9738",
     lngLat: [174.93338, -36.89637],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9243/howick/howick-countdown",
   },
   {
@@ -543,7 +543,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 271 3634",
     lngLat: [174.8737, -36.91769],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9141/botany-downs/botany-downs-countdown",
   },
 
@@ -556,7 +556,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 537 8497",
     lngLat: [174.92839, -36.91599],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9458/howick/meadowlands-countdown",
   },
   {
@@ -568,7 +568,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 536 5176",
     lngLat: [175.01085, -36.88961],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9177/beachlands/beachlands-countdown",
   },
   {
@@ -580,7 +580,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 263 9765",
     lngLat: [174.88229, -36.98755],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9161/manukau/manukau-countdown",
   },
   {
@@ -592,7 +592,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 298 6573",
     lngLat: [174.9274, -37.04856],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9202/takanini/takanini-countdown",
   },
   {
@@ -604,7 +604,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 237 0220",
     lngLat: [174.90245, -37.19995],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9199/pukekohe/pukekohe-countdown",
   },
   {
@@ -616,7 +616,7 @@ export const stores: IStoreDetails[] = [
     phone: "(09) 237 3080",
     lngLat: [174.91065, -37.2112],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9107/pukekohe/pukekohe-south-countdown",
   },
   {
@@ -628,7 +628,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 853 0017",
     lngLat: [175.26635, -37.73058],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9103/rototuna-hamilton/st-james-countdown",
   },
   {
@@ -640,7 +640,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 850 5091",
     lngLat: [175.23383, -37.74648],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9282/te-rapa-hamilton/te-rapa-countdown",
   },
   {
@@ -652,7 +652,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 834 1490",
     lngLat: [175.27368, -37.78112],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9192/hamilton/hamilton-countdown",
   },
   {
@@ -664,7 +664,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 838 2714",
     lngLat: [175.2828, -37.7908],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9033/hamilton/bridge-street-countdown?lat=-37.77461872239307&long=175.265665401189&q=",
   },
   {
@@ -676,7 +676,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 853 0003",
     lngLat: [175.29896, -37.77835],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9473/hamilton-east/claudelands-countdown",
   },
   {
@@ -688,7 +688,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 823 5971",
     lngLat: [175.46983, -37.89151],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9153/cambridge/cambridge-countdown",
   },
   {
@@ -700,7 +700,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 8720740",
     lngLat: [175.32677, -38.01194],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9449/te-awamutu/te-awamutu-countdown",
   },
   {
@@ -712,7 +712,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 549 4603",
     lngLat: [175.91594, -37.55967],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9453/katikati/katikati-countdown",
   },
   {
@@ -724,7 +724,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 576 1727",
     lngLat: [176.15354, -37.6684],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9050/tauranga/bureta-park-countdown",
   },
   {
@@ -736,7 +736,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 578 0055",
     lngLat: [176.15773, -37.70041],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9162/tauranga/tauranga-countdown",
   },
   {
@@ -748,7 +748,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 579 2862",
     lngLat: [176.1098, -37.69299],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9143/tauranga/bethlehem-countdown",
   },
   {
@@ -760,7 +760,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 547 4560",
     lngLat: [176.21359, -37.67975],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9415/mt-maunganui-tauranga/bayfair-countdown",
   },
   {
@@ -772,7 +772,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 571 0500",
     lngLat: [176.15126, -37.71108],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9113/tauranga/fraser-cove-countdown",
   },
   {
@@ -784,7 +784,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 547 4024",
     lngLat: [176.28109, -37.6992307],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9472/papamoa/papamoa-countdown",
   },
   {
@@ -796,7 +796,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 350 3277",
     lngLat: [176.25412, -38.14337],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9189/rotorua/rotorua-countdown",
   },
   {
@@ -808,7 +808,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 349 6501",
     lngLat: [176.25135, -38.13686],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9110/rotorua/central-mall-countdown",
   },
   {
@@ -820,7 +820,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 343 6070",
     lngLat: [176.22832, -38.1201],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9173/rotorua/fairy-springs-countdown",
   },
   {
@@ -832,7 +832,7 @@ export const stores: IStoreDetails[] = [
     phone: "(07) 306 0014",
     lngLat: [176.99505, -37.95612],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9170/whakatane/whakatane-countdown",
   },
   {
@@ -844,7 +844,7 @@ export const stores: IStoreDetails[] = [
     phone: "(06) 834 1401",
     lngLat: [176.91535, -39.492],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9130/napier/carlyle-countdown",
   },
   {
@@ -856,7 +856,7 @@ export const stores: IStoreDetails[] = [
     phone: "(06) 835 3643",
     lngLat: [176.90672, -39.4932],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "",
   },
   {
@@ -868,7 +868,7 @@ export const stores: IStoreDetails[] = [
     phone: "(06) 757 3330",
     lngLat: [174.11707, -39.0429],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9133/waiwhakaiho-new-plymouth/the-valley-countdown",
   },
   {
@@ -880,7 +880,7 @@ export const stores: IStoreDetails[] = [
     phone: "(06) 759 7481",
     lngLat: [174.08237, -39.05645],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9528/new-plymouth/new-plymouth-central-countdown",
   },
   {
@@ -892,7 +892,7 @@ export const stores: IStoreDetails[] = [
     phone: "(06) 751 0485",
     lngLat: [174.03399, -39.07588],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9425/new-plymouth/spotswood-countdown",
   },
   {
@@ -904,7 +904,7 @@ export const stores: IStoreDetails[] = [
     phone: "(06) 278 0026",
     lngLat: [174.2812, -39.58744],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9431/hawera/hawera-countdown",
   },
   {
@@ -916,7 +916,7 @@ export const stores: IStoreDetails[] = [
     phone: "(06) 349 0199",
     lngLat: [175.05204, -39.9357],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9151/wanganui/wanganui-countdown?lat=-39.9334197333&long=175.0571094&q=%20near%2011%20Taupo%20Quay,%20Whanganui%204500",
   },
   {
@@ -928,7 +928,7 @@ export const stores: IStoreDetails[] = [
     phone: "(06) 349 0070",
     lngLat: [175.03884, -39.92532],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9129/wanganui/victoria-ave-countdown",
   },
   {
@@ -940,7 +940,7 @@ export const stores: IStoreDetails[] = [
     phone: "(06) 356 6066",
     lngLat: [175.61621, -40.35823],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9155/palmerston-north/palmerston-north-countdown",
   },
   {
@@ -952,7 +952,7 @@ export const stores: IStoreDetails[] = [
     phone: "(06) 356 6067",
     lngLat: [175.65301, -40.33007],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9424/kelvin-grove-palmerston-north/kelvin-grove-countdown",
   },
   {
@@ -964,7 +964,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 527 2003",
     lngLat: [175.07069, -41.12308],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9157/upper-hutt/upper-hutt-countdown",
   },
   {
@@ -976,7 +976,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 576 2000",
     lngLat: [174.90535, -41.20785],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9156/lower-hutt/lower-hutt-countdown",
   },
   {
@@ -988,7 +988,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 569 3993",
     lngLat: [174.90282, -41.2116],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9489/lower-hutt/queensgate-countdown",
   },
   {
@@ -1000,7 +1000,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 589 9573",
     lngLat: [174.87199, -41.22328],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9535/petone/petone-countdown",
   },
   {
@@ -1012,7 +1012,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 499 3466",
     lngLat: [174.77521, -41.28421],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9066/wellington/cable-car-lane-countdown",
   },
   {
@@ -1024,7 +1024,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 464 3000",
     lngLat: [174.82492, -41.29756],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9530/karori/karori-countdown",
   },
   {
@@ -1036,7 +1036,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 465 0990",
     lngLat: [174.80734, -41.22419],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9158/johnsonville/johnsonville-mall-countdown",
   },
   {
@@ -1048,7 +1048,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 479 2133",
     lngLat: [174.76654, -41.25903],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9031/crofton-downs/crofton-downs-countdown",
   },
   {
@@ -1060,7 +1060,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 232 7057",
     lngLat: [174.83002, -41.18667],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9475/tawa/tawa-countdown",
   },
   {
@@ -1072,7 +1072,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 387 2049",
     lngLat: [174.7947, -41.31949],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9474/kilbirnie/kilbirnie-countdown",
   },
   {
@@ -1084,7 +1084,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 380 2080",
     lngLat: [174.77744, -41.30737],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9508/newtown/newtown-countdown",
   },
   {
@@ -1096,7 +1096,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 520 6130",
     lngLat: [173.953, -41.51174],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9160/blenheim/blenheim-countdown",
   },
   {
@@ -1108,7 +1108,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 520 6770",
     lngLat: [173.95464, -41.52825],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9212/blenheim/redwoodtown-countdown",
   },
   {
@@ -1120,7 +1120,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 546 7443",
     lngLat: [173.2345469, -41.3118968],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9159/nelson/nelson-countdown",
   },
   {
@@ -1132,7 +1132,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 547 9298",
     lngLat: [173.2348982, -41.3119734],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9168/stoke/stoke-countdown",
   },
   {
@@ -1144,7 +1144,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 528 1170",
     lngLat: [173.0107716, -41.1095987],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9495/motueka/motueka-countdown",
   },
   {
@@ -1156,7 +1156,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 314 0000",
     lngLat: [172.7321431, -43.156362],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9518/amberley/amberley-countdown",
   },
   {
@@ -1168,7 +1168,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 311 8170",
     lngLat: [172.5988527, -43.3073469],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9284/rangiora-christchurch/rangiora-east-countdown",
   },
   {
@@ -1180,7 +1180,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 357 0450",
     lngLat: [172.547678, -43.489914],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9090/christchurch/christchurch-airport-countdown",
   },
 
@@ -1193,7 +1193,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 375 9024",
     lngLat: [172.625558, -43.459107],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9196/christchurch/northwood-countdown",
   },
   {
@@ -1205,7 +1205,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 375 0092",
     lngLat: [172.6117157, -43.4914625],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9174/papanuai-christchurch/northlands-countdown",
   },
   {
@@ -1217,7 +1217,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 348 3754",
     lngLat: [172.573094, -43.532603],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9176/riccarton-christchurch/church-cnr-countdown",
   },
   {
@@ -1229,7 +1229,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 375 7003",
     lngLat: [172.6645278, -43.5056571],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9100/shirley/the-palms-countdown",
   },
   {
@@ -1241,7 +1241,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 344 0570",
     lngLat: [172.5269929, -43.5428131],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9121/hornby-christchurch/hornby-countdown",
   },
   {
@@ -1253,7 +1253,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 347 8264",
     lngLat: [172.3866642, -43.59415],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9131/rolleston-christchurch/rolleston-countdown",
   },
   {
@@ -1265,7 +1265,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 337 5781",
     lngLat: [172.6355851, -43.55335215],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9180/christchurch/colombo-st-countdown",
   },
   {
@@ -1277,7 +1277,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 373 6520",
     lngLat: [172.702296, -43.556556],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9292/ferrymead-christchurch/ferrymead-countdown",
   },
   {
@@ -1289,7 +1289,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 687 1229",
     lngLat: [171.2545953, -44.4022964],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9183/timaru/timaru-countdown",
   },
   {
@@ -1301,7 +1301,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 433 0419",
     lngLat: [170.9705023, -45.0972152],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9182/oamaru/oamaru-countdown",
   },
   {
@@ -1313,7 +1313,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 441 0030",
     lngLat: [168.7414647, -45.013875],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9058/frankton-queenstown/queenstown-countdown",
   },
   {
@@ -1325,7 +1325,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 477 7283",
     lngLat: [170.5063954, -45.8741213],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9190/dunedin/dunedin-central-countdown?lat=-45.87751965&long=170.5001039667&q=%20near%208%20Broadway,%20Dunedin%20Central,%20Dunedin%209016",
   },
   {
@@ -1337,7 +1337,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 466 3100",
     lngLat: [170.5019883, -45.8927274],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9524/dunedin/dunedin-south-countdown?lat=-45.89452745&long=170.4962581667&q=%20near%208%20Reid%20Road,%20South%20Dunedin,%20Dunedin%209012",
   },
   {
@@ -1349,7 +1349,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 466 3225",
     lngLat: [170.5089154, -45.8964121],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9442/dunedin/andersons-bay-countdown?lat=-45.89640575&long=170.5254672833&q=%20near%201%20Bayfield%20Road,%20Andersons%20Bay,%20Dunedin%209013",
   },
   {
@@ -1361,7 +1361,7 @@ export const stores: IStoreDetails[] = [
     phone: "(03) 489 0041",
     lngLat: [170.3523654, -45.8804003],
     storeBrand: "Countdown",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://shop.countdown.co.nz/store-finder/9118/mosgiel-dunedin/mosgiel-countdown?lat=-45.8582993&long=170.3236126&q=%20near%20138%20Outram-Mosgiel%20Road,%20Mosgiel%209073",
   },
   {
@@ -1383,7 +1383,7 @@ export const stores: IStoreDetails[] = [
     region: "Auckland North",
     phone: "(09) 427 0117",
     lngLat: [174.6936005, -36.5864805],
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://www.newworld.co.nz/upper-north-island/auckland/orewa",
   },
   {
@@ -1461,7 +1461,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 237 8320",
     lngLat: [174.837137, -41.148853],
     storeBrand: "Moore Wilsons",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://moorewilsons.co.nz/porirua",
   },
   {
@@ -1473,7 +1473,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 388 2934",
     lngLat: [174.8141957, -41.3161765],
     storeBrand: "New World",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://www.newworld.co.nz/lower-north-island/wellington/miramar/",
   },
   {
@@ -1518,7 +1518,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 384 9906",
     lngLat: [174.7806878, -41.29574675],
     storeBrand: "Moore Wilsons",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://moorewilsons.co.nz/",
   },
   {
@@ -1530,7 +1530,7 @@ export const stores: IStoreDetails[] = [
     phone: "(04) 499 9041",
     lngLat: [174.7784177, -41.27411255],
     storeBrand: "New World",
-    storeType: "Supermarket",
+    storeType: "Supermarkets",
     href: "https://www.newworld.co.nz/lower-north-island/wellington/thorndon/",
   },
   {

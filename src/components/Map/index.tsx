@@ -6,7 +6,7 @@ import { StoreContext } from "../../contexts/StoreContext";
 import { MapContext } from "../../contexts/MapContext";
 
 const MapWrapper = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 100%;
   min-height: 670px;
 `;
