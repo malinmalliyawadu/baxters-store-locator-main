@@ -4,7 +4,6 @@ export interface IStoreContext {
     stores: IStoreDetails[];
     filter: string;
     filterStores: (type: string) => void;
-    updateSearch: (bbox: [number, number, number, number]) => void;
     clearSearch: () => void;
 }
 export declare const StoreContext: React.Context<IStoreContext>;
