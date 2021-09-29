@@ -35,6 +35,8 @@ module.exports = {
     filename: "[name].js",
     chunkFilename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist/"),
+    publicPath:
+      "https://malinmalliyawadu.github.io/baxters-store-locator-main/",
   },
   plugins: [
     new HtmlWebpackPlugin({
