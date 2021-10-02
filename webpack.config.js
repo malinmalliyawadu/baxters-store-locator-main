@@ -36,7 +36,9 @@ module.exports = {
     chunkFilename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist/"),
     publicPath:
-      "https://malinmalliyawadu.github.io/baxters-store-locator-main/",
+      process.env.NODE_ENV === "production"
+        ? "https://malinmalliyawadu.github.io/baxters-store-locator-main/"
+        : "",
   },
   plugins: [
     new HtmlWebpackPlugin({
