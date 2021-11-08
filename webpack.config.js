@@ -11,12 +11,19 @@ module.exports = {
         use: ["babel-loader", "ts-loader"],
         exclude: /node_modules/,
       },
+      {
+        test: /\.(jpg|png|svg)$/,
+        loader: "file-loader",
+        options: {
+          name: "[path][name].[hash].[ext]",
+        },
+      },
     ],
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
   },
-  mode: process.env.NODE_ENV || "production",
+  mode: process.env.NODE_ENV || "development",
   optimization: {
     usedExports: true,
     minimizer: [new TerserPlugin()],
@@ -28,6 +35,10 @@ module.exports = {
     filename: "[name].js",
     chunkFilename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist/"),
+    publicPath:
+      process.env.NODE_ENV === "production"
+        ? "https://malinmalliyawadu.github.io/baxters-store-locator-main/"
+        : "",
   },
   plugins: [
     new HtmlWebpackPlugin({

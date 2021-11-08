@@ -15,7 +15,7 @@ const SearchHeader = styled.div`
 
 export const Search = () => {
   const inputRef: React.RefObject<HTMLDivElement> = useRef(null);
-  const { updateSearch, clearSearch } = useContext(StoreContext);
+  const { clearSearch } = useContext(StoreContext);
   const { map, resetMap } = useContext(MapContext);
 
   if (!geocoder && map && inputRef.current) {
@@ -36,19 +36,6 @@ export const Search = () => {
         },
         trackUserLocation: true,
       })
-    );
-
-    geocoder.on(
-      "result",
-      ({
-        result,
-      }: {
-        result: {
-          bbox: [number, number, number, number];
-        };
-      }) => {
-        updateSearch(result.bbox);
-      }
     );
 
     geocoder.on("clear", () => {
