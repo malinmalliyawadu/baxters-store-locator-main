@@ -1,15 +1,15 @@
-# Baxter's Original Store Locator
+# Baxter's Original Store Locator 📍
 
 Widget that lists all locations that Baxter's Original products can be purchased. Built with React and Webpack buildchain. Hosted on Github Pages.
 
-## Usage
+## ⚡️ Usage
 
 ```bash
 npm i
 npm start
 ```
 
-## Deployment
+## 🚀 Deployment
 
 ```bash
 npm run deploy
