@@ -29,6 +29,7 @@ const FiltersBox = styled.div`
   align-items: start;
   background: white;
   flex-direction: column;
+  border-radius: 4px;
 `;
 
 const FiltersLabel = styled.div`
