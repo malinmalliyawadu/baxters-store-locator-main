@@ -1,11 +1,31 @@
 import React from "react";
 import styled from "styled-components";
-
+import { Disclosure } from "@headlessui/react";
 import { stores } from "../../constants/stores";
 
-const ChainHeader = styled.h3`
-  padding: 1rem;
+const ChainHeader = styled.div`
+  margin: 1rem;
   color: #333333;
+
+  button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    position: relative;
+
+    :hover {
+      background-color: #d8a1a2;
+    }
+
+    :after {
+      content: "▼";
+      position: absolute;
+      right: 1rem;
+    }
+  }
 `;
 
 const Store = styled.div`
@@ -53,20 +73,27 @@ export const ListSection = ({ category }: { category: string }) => {
   const hasDivider = stores.length > 3;
 
   return (
-    <>
-      <ChainHeader>{category}</ChainHeader>
-      <StoreWrapper>
-        {stores
-          .filter((store) => (store.storeBrand || store.storeType) === category)
-          .sort((storeA, storeB) => sortFn(storeA.name, storeB.name))
-          .map((store) => {
-            return (
-              <Store hasDivider={hasDivider}>
-                <StoreLink href={store.href}>{store.name}</StoreLink>
-              </Store>
-            );
-          })}
-      </StoreWrapper>
-    </>
+    <Disclosure>
+      <ChainHeader>
+        <Disclosure.Button>{category}</Disclosure.Button>
+      </ChainHeader>
+
+      <Disclosure.Panel>
+        <StoreWrapper>
+          {stores
+            .filter(
+              (store) => (store.storeBrand || store.storeType) === category
+            )
+            .sort((storeA, storeB) => sortFn(storeA.name, storeB.name))
+            .map((store) => {
+              return (
+                <Store hasDivider={hasDivider}>
+                  <StoreLink href={store.href}>{store.name}</StoreLink>
+                </Store>
+              );
+            })}
+        </StoreWrapper>
+      </Disclosure.Panel>
+    </Disclosure>
   );
 };
