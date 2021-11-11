@@ -62,8 +62,15 @@ export const Map = () => {
             markerElement.innerHTML = defaultMarkerHtml;
         }
 
+        const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(`
+        <div style="padding: 0.5rem 0.75rem;">
+          <h3 style="margin: 0 0 0.25rem 0;"><a target="_blank" style="color: #8b3032" href="${store.href}">${store.name}<a/></h3>
+          <div>📍 <a target="_blank" href="https://maps.google.com/?q=${store.name}, ${store.address}">${store.address}</a></div>
+        </div>`);
+
         const marker = new mapboxgl.Marker(markerElement)
           .setLngLat(store.lngLat)
+          .setPopup(popup)
           .addTo(map);
 
         return marker;
