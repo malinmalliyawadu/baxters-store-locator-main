@@ -9,9 +9,9 @@ const StoresList = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
-  max-height: 480px;
+  max-height: 400px;
   bottom: 1rem;
-  top: 5.5rem;
+  top: 8.5rem;
   overflow-y: auto;
   position: absolute;
   z-index: 1;

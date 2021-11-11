@@ -5,6 +5,7 @@ import { StoreProvider } from "./contexts/StoreContext";
 import { MapProvider } from "./contexts/MapContext";
 import { Map } from "./components/Map";
 import { Sidebar } from "./components/Sidebar";
+import List from "./components/List";
 
 const App = styled.div`
   display: flex;
@@ -36,6 +37,8 @@ class StoreLocator extends Component {
             <Sidebar />
 
             <Map />
+
+            <List />
           </App>
         </StoreProvider>
       </MapProvider>

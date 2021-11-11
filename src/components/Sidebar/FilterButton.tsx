@@ -6,10 +6,10 @@ const Button = styled.button<{ $selected: boolean }>`
   border-radius: 1rem;
   border: solid 1px #333;
   cursor: pointer;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 0.4rem;
   display: flex;
   align-items: center;
-  background: ${({ $selected }) => ($selected ? "rgb(139, 48, 50)" : "#ccc")};
+  background: ${({ $selected }) => ($selected ? "rgb(139, 48, 50)" : "#ddd")};
   color: ${({ $selected }) => ($selected ? "white" : "black")};
   height: 30px;
   line-height: 30px;

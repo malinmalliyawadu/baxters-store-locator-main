@@ -22,7 +22,9 @@ export const StoreProvider: React.FC = ({ children }) => {
 
   useEffect(() => {
     if (filter) {
-      const filteredStores = rawStores.filter((x) => x.storeType === filter);
+      const filteredStores = rawStores.filter(
+        (x) => x.storeType.startsWith(filter) || x.storeBrand === filter
+      );
       setStores(filteredStores);
     } else {
       setStores(rawStores);

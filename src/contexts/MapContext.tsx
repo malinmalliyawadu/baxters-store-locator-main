@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
-import mapboxgl from 'mapbox-gl';
-import { createContext } from 'react';
+import React, { useState } from "react";
+import mapboxgl from "mapbox-gl";
+import { createContext } from "react";
+import { useWindowDimensions } from "../hooks/useWindowDimensions";
 
-mapboxgl.accessToken = 'pk.eyJ1IjoibmlnZWx3dGYiLCJhIjoiY2s5OWJ5ZTY0MXFqNDNpbXluNnFyaW05bCJ9.KWrK94vejsU0tTA0DgbUeQ';
+mapboxgl.accessToken =
+  "pk.eyJ1IjoibmlnZWx3dGYiLCJhIjoiY2s5OWJ5ZTY0MXFqNDNpbXluNnFyaW05bCJ9.KWrK94vejsU0tTA0DgbUeQ";
 
 export interface IMapContext {
   map?: mapboxgl.Map;
@@ -15,30 +17,25 @@ export const MapContext = createContext<IMapContext>({
   resetMap: () => {},
 });
 
-export class MapProvider extends Component {
-  state: {
-    map?: mapboxgl.Map;
-  } = {};
+export const MapProvider: React.FC = ({ children }) => {
+  const [map, setMap] = useState<mapboxgl.Map>();
+  const { width } = useWindowDimensions();
 
-  setMap(map: mapboxgl.Map) {
-    this.setState({ map });
-  }
-
-  render() {
-    return (
-      <MapContext.Provider value={{
-        map: this.state.map,
-        setMap: this.setMap.bind(this),
+  return (
+    <MapContext.Provider
+      value={{
+        map: map,
+        setMap: setMap,
         resetMap: () => {
-          this.state.map?.flyTo({
-            center: [174.7762, -41.2865],
+          map?.flyTo({
+            center: width > 400 ? [174.7762, -41.2865] : [166, -40.57],
             zoom: 4,
             speed: 8,
-          })
-        }
-      }}>
-        {this.props.children}
-      </MapContext.Provider>
-    )
-  }
-}
+          });
+        },
+      }}
+    >
+      {children}
+    </MapContext.Provider>
+  );
+};

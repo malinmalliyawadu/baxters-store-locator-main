@@ -7,16 +7,20 @@ const ListHeader = styled.h2`
   border-bottom: 3px solid #8b3032;
 `;
 
+const ListContainer = styled.div`
+  margin-top: 3rem;
+`;
+
 const List = () => {
   return (
-    <div>
+    <ListContainer>
       <ListHeader>FIND YOUR CLOSEST STOCKIST</ListHeader>
       <ListSection category="Countdown" />
       <ListSection category="New World" />
       <ListSection category="Moore Wilsons" />
       <ListSection category="Gilmours" />
       <ListSection category="Other Stockists" />
-    </div>
+    </ListContainer>
   );
 };
 

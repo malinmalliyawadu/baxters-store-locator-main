@@ -8,6 +8,7 @@ import { CountdownMarker } from "./CountdownMarker";
 import { renderToString } from "react-dom/server";
 import { NewWorldMarker } from "./NewWorldMarker";
 import { GilmoursMarker } from "./GilmoursMarker";
+import { useWindowDimensions } from "../../hooks/useWindowDimensions";
 
 const MapWrapper = styled.div`
   width: 100%;
@@ -25,6 +26,7 @@ let markers: mapboxgl.Marker[] = [];
 export const Map = () => {
   const { stores } = useContext(StoreContext);
   const { map, setMap } = useContext(MapContext);
+  const { width } = useWindowDimensions();
   const id = `map${cuid()}`;
 
   useEffect(() => {
@@ -35,7 +37,7 @@ export const Map = () => {
         new mapboxgl.Map({
           container: id,
           style: "mapbox://styles/nigelwtf/ck9ax9u8h0za31ilsiktnl0cn",
-          center: [174.7762, -41.2865],
+          center: width > 400 ? [174.7762, -41.2865] : [180, -40.57],
           zoom: 4,
         })
       );

@@ -12,7 +12,6 @@ const Store = styled.div`
   display: flex;
   flex-direction: column;
 
-  padding: 1rem;
   margin: 0 1rem;
 
   flex: 1 1 25%;
@@ -27,9 +26,11 @@ const StoreLink = styled.a`
   font-size: 0.9rem;
   cursor: pointer;
   transition: color 2s;
+  padding: 1rem;
 
   &:hover {
-    color: #333333;
+    color: rgb(139, 48, 50);
+    background: rgba(139, 48, 50, 0.06);
   }
 `;
 
