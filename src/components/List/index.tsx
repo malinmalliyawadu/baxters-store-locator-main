@@ -19,6 +19,7 @@ const List = () => {
       <ListSection category="New World" />
       <ListSection category="Moore Wilsons" />
       <ListSection category="Gilmours" />
+      <ListSection category="Four Square" />
       <ListSection category="Other Stockists" />
     </ListContainer>
   );
