@@ -87,7 +87,10 @@ export const ListSection = ({ category }: { category: string }) => {
             .sort((storeA, storeB) => sortFn(storeA.name, storeB.name))
             .map((store) => {
               return (
-                <Store hasDivider={hasDivider}>
+                <Store
+                  key={`list-section-store-${store.name}`}
+                  hasDivider={hasDivider}
+                >
                   <StoreLink href={store.href}>{store.name}</StoreLink>
                 </Store>
               );

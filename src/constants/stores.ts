@@ -21,11 +21,11 @@ export type Region =
 
 export interface IStoreDetails {
   name: string;
-  lngLat: [number, number];
-  address: string;
-  locality: string;
-  postcode: string;
-  region: Region;
+  lngLat?: [number, number];
+  address?: string;
+  locality?: string;
+  postcode?: string;
+  region?: Region;
   phone?: string;
   storeBrand?: string;
   storeType: string;
@@ -1515,39 +1515,6 @@ export const stores: IStoreDetails[] = [
     href: "https://foursquare.co.nz/lower-north-island/wellington/kelson",
   },
   {
-    name: "Te Rapa New World",
-    address: "751 Te Rapa Road",
-    locality: "Te Rapa",
-    postcode: "3200",
-    region: "Waikato",
-    phone: "(07) 849 0300",
-    lngLat: [175.2378093, -37.7530197],
-    storeType: "New World",
-    href: "https://www.newworld.co.nz/upper-north-island/waikato/te-rapa/",
-  },
-  {
-    name: "Warkworth New World",
-    address: "6 Percy Street",
-    locality: "Warkworth",
-    postcode: "1040",
-    region: "Auckland North",
-    phone: "(09) 425 1040",
-    lngLat: [174.6644429, -36.398794],
-    storeType: "New World",
-    href: "https://www.newworld.co.nz/upper-north-island/auckland/warkworth/",
-  },
-  {
-    name: "The Nest",
-    address: "434 New North Road",
-    locality: "Kingsland",
-    postcode: "1021",
-    region: "Auckland North",
-    phone: "(09) 948 2212",
-    lngLat: [174.7431551, -36.871965],
-    storeType: "Other Stockists",
-    href: "https://www.facebook.com/thenestkingsland/",
-  },
-  {
     name: "Kelburn Four Square",
     address: "97A Upland Road",
     locality: "Kelburn",
@@ -1620,18 +1587,6 @@ export const stores: IStoreDetails[] = [
     href: "https://www.newworld.co.nz/upper-north-island/auckland/warkworth",
   },
   {
-    name: "Wellington Gilmours",
-    address: "33 Bouverie Street",
-    locality: "Petone",
-    postcode: "5012",
-    region: "Wellington",
-    phone: "(04) 499 5130",
-    lngLat: [174.8810746, -41.218885],
-    storeBrand: "Gilmours",
-    storeType: "Wholesalers",
-    href: "https://www.gilmours.co.nz/locations/wellington/",
-  },
-  {
     name: "Hamilton Gilmours",
     address: "13 Simsey Place",
     locality: "Te Rapa Park",
@@ -1642,6 +1597,12 @@ export const stores: IStoreDetails[] = [
     storeBrand: "Gilmours",
     storeType: "Wholesalers",
     href: "https://www.gilmours.co.nz/locations/hamilton/",
+  },
+  {
+    name: "The Market",
+    storeBrand: "The Market",
+    storeType: "Other Stockists",
+    href: "https://themarket.com/nz/brands/baxters-original-sauce/17921",
   },
 ];
 

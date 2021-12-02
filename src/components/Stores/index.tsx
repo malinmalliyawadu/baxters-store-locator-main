@@ -73,7 +73,7 @@ export const Stores = () => {
       <AnimatePresence>
         {stores.map((store) => (
           <Store
-            key={store.name}
+            key={`store-list-${store.name}`}
             initial={{
               opacity: 0,
             }}
