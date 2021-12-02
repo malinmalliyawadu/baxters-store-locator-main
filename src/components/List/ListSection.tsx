@@ -82,7 +82,8 @@ export const ListSection = ({ category }: { category: string }) => {
         <StoreWrapper>
           {stores
             .filter(
-              (store) => (store.storeBrand || store.storeType) === category
+              (store) =>
+                store.storeBrand === category || store.storeType === category
             )
             .sort((storeA, storeB) => sortFn(storeA.name, storeB.name))
             .map((store) => {
