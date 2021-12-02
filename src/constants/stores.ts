@@ -1511,7 +1511,7 @@ export const stores: IStoreDetails[] = [
     region: "Wellington",
     phone: "(04) 565 0914",
     lngLat: [174.9274065, -41.1858608],
-    storeType: "Other Stockists",
+    storeType: "Supermarkets",
     href: "https://foursquare.co.nz/lower-north-island/wellington/kelson",
   },
   {
