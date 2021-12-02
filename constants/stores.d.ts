@@ -1,4 +1,4 @@
-export declare type Region = "Northland" | "Waikato" | "Auckland North" | "Auckland West" | "Auckland Central" | "Auckland East" | "Auckland South" | "Bay of Plenty" | "Taranaki" | "Whanganui" | "Manawatu" | "Marlborough" | "Wellington" | "Nelson" | "Tasman" | "Canterbury" | "Otago";
+export declare type Region = "Northland" | "Waikato" | "Auckland North" | "Auckland West" | "Auckland Central" | "Auckland East" | "Auckland South" | "Hamilton" | "Bay of Plenty" | "Taranaki" | "Whanganui" | "Manawatu" | "Marlborough" | "Wairarapa" | "Wellington" | "Nelson" | "Tasman" | "Canterbury" | "Otago";
 export interface IStoreDetails {
     name: string;
     lngLat: [number, number];
