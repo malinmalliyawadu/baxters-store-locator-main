@@ -10,7 +10,7 @@ const SidebarWrapper = styled.div`
   left: 2rem;
   top: 2rem;
   bottom: 2rem;
-  width: 460px;
+  width: 500px;
   max-height: 600px;
   display: none;
 

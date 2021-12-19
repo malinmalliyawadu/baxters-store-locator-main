@@ -55,8 +55,8 @@ const StoreLink = styled.a`
 `;
 
 const StoreWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 `;
 
 const sortFn = (storeA: string, storeB: string): number => {
